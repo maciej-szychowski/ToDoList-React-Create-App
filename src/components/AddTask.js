@@ -18,7 +18,6 @@ class AddTask extends Component {
         }
     }
     
-   
     handleChangeInput = (e) => {
         const name = e.target.name;
         if(name === "text" || name === "date") {

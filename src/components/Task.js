@@ -13,14 +13,14 @@ const Task = (props) => {
                 <h3 style={important ? style : {}}>{text}</h3>
                 <span>{date}</span>
                 <button className="done-btn" onClick={()=>done(id)}>Done</button>
-                <button className="del-btn" onClick={()=>del(id)}>X</button>
+                <button className="del-btn" onClick={()=>del(id)}>x</button>
             </div>
         )
     } else {
         return(
             <div className="task-item">
                 <h3>{text}</h3>
-                <button className="del-btn" onClick={()=>del(id)}>X</button>
+                <button className="del-btn" onClick={()=>del(id)}>x</button>
             </div>  
         )
     }

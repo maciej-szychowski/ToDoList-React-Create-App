@@ -22,14 +22,23 @@
     border: none;
     outline: none;
     padding: 3px 5px;
-    box-shadow: 1px 1px 1px rgb(0, 0, 0);
-    border-radius: 5px;
+    color: rgb(255, 255, 255);
 }
 
 .done-btn {
-    background-color: rgb(6, 194, 178);
+    background-color: rgb(36, 191, 202);
+    transition: 0.2s background-color; 
+}
+
+.done-btn:hover {
+    background-color: rgb(5, 220, 200);
 }
 
 .del-btn {
-    background-color: rgb(248, 8, 8);
+    background-color: rgb(199, 22, 22);
+    transition: 0.2s background-color; 
+}
+
+.del-btn:hover {
+    background-color: rgb(204, 21, 21); 
 }

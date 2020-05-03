@@ -34,4 +34,44 @@ input,
     color: rgb(255,255,255);
     font-size: 14px;
     box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    transition: 0.2s background-color;
+}
+
+.addTask-btn:hover {
+    background-color: rgb(12, 150, 160);
+}
+
+@media (min-width: 768px) {
+    .task-input {
+        width: 50%;
+        font-size: 16px;
+    }
+
+    .addTask-btn {
+        width: 45%;
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 992px) {
+    .task-input {
+        width: 40%;
+        font-size: 16px;
+    }
+
+    .addTask-btn {
+        width: 30%;
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .date-input {
+        font-size: 16px;
+    }
+
+    .addTask-btn {
+        width: 20%;
+        font-size: 16px;
+    }
 }
