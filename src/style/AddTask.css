@@ -1,0 +1,37 @@
+.addTask-section {
+    background-color: rgb(127, 255, 0);
+    padding: 10px 0;
+    color: rgb(255,255,255);
+}
+
+.add-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input,
+.addTask-btn {
+    outline: none;
+    margin: 5px 0;
+    border: none;
+}
+
+.task-input {
+    width: 60%;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.date-input {
+    border-radius: 5px;
+}
+
+.addTask-btn {
+    width: 60%;
+    padding: 6px 0;
+    background-color: rgb(36, 191, 202);
+    color: rgb(255,255,255);
+    font-size: 14px;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+}

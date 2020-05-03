@@ -1,0 +1,35 @@
+.task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: 1px solid rgb(211, 205, 205);
+}
+
+.task-item h3 {
+    font-weight: 300;
+    flex-grow: 1;
+}
+
+.task-item span {
+    width: 25%;
+}
+
+.task-item button {
+    margin-left: 8px;
+    border: none;
+    outline: none;
+    padding: 3px 5px;
+    box-shadow: 1px 1px 1px rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.done-btn {
+    background-color: rgb(6, 194, 178);
+}
+
+.del-btn {
+    background-color: rgb(248, 8, 8);
+}

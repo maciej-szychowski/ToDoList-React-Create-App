@@ -1,0 +1,10 @@
+.app-header {
+    height: 10vh;
+    line-height: 10vh;
+    color: rgb(255,255,255);
+    background-color: rgb(36, 191, 202);
+}
+
+.app-header h1 {
+    margin: 0;
+}
